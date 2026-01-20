@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data
+data/raw/
+logs/
+
+# dbt
+target/
+dbt_packages/
+
+# OS
+.DS_Store
