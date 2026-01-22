@@ -1,0 +1,14 @@
+# In medical_warehouse/dbt_project.yml
+name: 'medical_warehouse'
+version: '1.0.0'
+
+# Add this profile configuration
+profile: 'medical_warehouse'
+
+# Explicitly set the profiles directory
+# This tells dbt to look for profiles.yml in the project directory
+config-version: 2
+
+# Rest of your configuration...
+
+
